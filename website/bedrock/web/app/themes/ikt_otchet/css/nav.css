@@ -1,0 +1,18 @@
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: 200px;
+    background-color: beige;
+    box-shadow: -3px 6px 20px 0px #0000004d;
+}
+
+.nav__list {
+    padding: 40px 0;
+}
+.nav__elem,
+.sidebar__exit {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

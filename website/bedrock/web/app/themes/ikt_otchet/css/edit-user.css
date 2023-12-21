@@ -1,0 +1,30 @@
+.edit-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.edit-user form,
+.edit-user ul,
+.edit-user input,
+.edit-user label {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.edit-user .wppb-form-field {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-user .form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

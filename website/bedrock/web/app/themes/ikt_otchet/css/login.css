@@ -1,0 +1,31 @@
+/* #wppb-loginform {
+    display: grid;
+    gap: 15px;
+
+    margin-bottom: 15px;
+} */
+#wppb-login-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-register-lost-password.login-register-lost-password {
+    height: auto ;
+    display: flex;
+    justify-content: center;
+}
+/* .wppb-form-field label  {
+    width: 100% !important;
+    margin-bottom: 15px;
+} */
+/* .wppb-form-field .input {
+    width: 100% !important;
+} */
+
+.login-submit {
+    display: flex;
+    justify-content: center;
+}
